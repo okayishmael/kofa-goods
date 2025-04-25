@@ -142,6 +142,7 @@ nav {
 .right p {
   font-size: 2.5rem;
   font-weight: 500;
+  width: 80%;
 }
 
 .left-content,
@@ -265,6 +266,7 @@ nav {
   #stats .left p,
   #stats .right p {
     font-size: 2rem;
+    width: 100%;
   }
   #products h2 {
     font-size: 4rem;
