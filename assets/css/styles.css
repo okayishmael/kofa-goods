@@ -108,6 +108,7 @@ nav {
   color: var(--color-tertiary);
   min-height: 100vh;
   padding: 4rem 0;
+  width: 50%;
 }
 
 #stats .right {
@@ -115,6 +116,7 @@ nav {
   color: var(--color-secondary);
   min-height: 100vh;
   padding: 4rem 0;
+  width: 50%;
 }
 
 .left h2 {
@@ -296,6 +298,7 @@ nav {
   #stats .left,
   #stats .right {
     min-height: 50vh;
+    width: 100%;
   }
   .left-content,
   .right-content {
