@@ -73,7 +73,7 @@ nav {
 #about,
 #products,
 #contact,
-#we-give {
+#stats {
   max-width: 100%;
   min-height: 100vh;
 }
@@ -98,19 +98,19 @@ nav {
   font-weight: 500;
 }
 
-#we-give {
+#stats {
   display: flex;
   background: #000;
 }
 
-#we-give .left {
+#stats .left {
   background-color: var(--color-secondary);
   color: var(--color-tertiary);
   min-height: 100vh;
   padding: 4rem 0;
 }
 
-#we-give .right {
+#stats .right {
   background-color: var(--color-tertiary);
   color: var(--color-secondary);
   min-height: 100vh;
@@ -250,12 +250,12 @@ nav {
   .about p {
     font-size: 2rem;
   }
-  #we-give .left h2,
-  #we-give .right h2 {
+  #stats .left h2,
+  #stats .right h2 {
     font-size: 8rem;
   }
-  #we-give .left p,
-  #we-give .right p {
+  #stats .left p,
+  #stats .right p {
     font-size: 2rem;
   }
   #products h2 {
@@ -290,11 +290,11 @@ nav {
     align-items: center;
     gap: 2rem;
   }
-  #we-give {
+  #stats {
     flex-direction: column;
   }
-  #we-give .left,
-  #we-give .right {
+  #stats .left,
+  #stats .right {
     min-height: 50vh;
   }
   .left-content,
